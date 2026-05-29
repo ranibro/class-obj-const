@@ -2,7 +2,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         // Criando objetos Instanciando a classe Pessoa
-        Pessoa objetoPessoa1 = new Pessoa("João", 25, "123.456.789-00");
+        Pessoa objetoPessoa1 = new Pessoa("João", 25, "123.456.789-09");
         Pessoa objetoPessoa2 = new Pessoa("Maria", 30, "987.654.321-00");
 
         // Criando objetos Instanciando a classe Carro
