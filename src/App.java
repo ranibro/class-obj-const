@@ -33,5 +33,24 @@ public class App {
         System.out.println("Ano: " + objetoCarro2.getAno());
 
         System.out.println("");
+
+
+
+
+
+        // ================ Classe Externa =================
+        ClasseExterna externa = new ClasseExterna(20, 40);
+
+        // ================ Classe Interna =================
+        ClasseExterna.ClasseInterna interna = externa.new ClasseInterna();
+
+        interna.setNumeros(60, 80);
+
+        // Metodo classe interna acessando atributos da classe externa
+        System.out.println(interna.getnumero1());
+        System.out.println(interna.getnumero2());
+        
+        System.out.println(interna.getnumero3());
+        System.out.println(interna.getnumero4());
     }
 }
